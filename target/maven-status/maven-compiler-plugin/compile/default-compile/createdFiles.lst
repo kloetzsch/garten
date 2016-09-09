@@ -1,0 +1,7 @@
+de\konrad\loetzsch\domain\CropItem.class
+de\konrad\loetzsch\controller\crop\CropItemViewModel.class
+de\konrad\loetzsch\domain\Variety.class
+de\konrad\loetzsch\GartenApplication.class
+de\konrad\loetzsch\controller\crop\CropController.class
+de\konrad\loetzsch\domain\CropItemRepository.class
+de\konrad\loetzsch\domain\Species.class

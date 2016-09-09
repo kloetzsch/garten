@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Die tolle Gartenapp</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+    <body>
+        fssdfsdf
+        <form action="#" th:action="@{/crop/add}" th:object="${cropItemViewModel}" method="post">
+            <label for="speciesName">Name der Art</label>
+            <input type="text" id="speciesName" th:field="*{speciesName}"/>
+            <br/>
+            <label for="varietyName">Name der Sorte</label>
+            <input type="text" id="varietyName" th:field="*{varietyName}"/>
+            <br/>
+            <label for="weight">Gewicht der geernteten Früchte</label>
+            <input type="number" id="weight" th:field="*{weight}" />
+            <br/>
+            <label for="amount">Anzahl der geernteten Früchte</label>
+            <input type="number" id="amount" th:field="*{amount}" />
+            <br/>
+            <input type="submit" id="formSubmitButton" value="Ernteeintrag hinzufügen"/>
+            
+        </form>
+    </body>
+</html>
